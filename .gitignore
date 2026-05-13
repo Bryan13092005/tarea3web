@@ -1,0 +1,19 @@
+# Ignorar dependencias de ambas carpetas
+backend/node_modules/
+frontend/node_modules/
+
+# Ignorar archivos de construcción (builds)
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Ignorar secretos y llaves
+.env
+backend/.env
+backend/serviceAccountKey.json
+frontend/.env
+
+# Logs
+*.log
+backend/*.log
+frontend/*.log

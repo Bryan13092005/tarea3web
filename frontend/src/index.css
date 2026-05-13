@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+main {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input, button, textarea {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 90px;
+  margin-top: 12px;
+}
